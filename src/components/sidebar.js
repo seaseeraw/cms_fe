@@ -1,10 +1,9 @@
-src/components/Sidebar.js
+
 import React from 'react';
 
 
-const Sidebar = () => (
+const Sidebars = () => (
     <div className="sidebar">
-        <h3>Dashboard</h3>
         <ul>
             <li>Home</li>
             <li>Analytics</li>
@@ -14,4 +13,4 @@ const Sidebar = () => (
     </div>
 );
 
-export default Sidebar;
+export default Sidebars;

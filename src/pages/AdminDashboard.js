@@ -1,12 +1,15 @@
 import React from 'react'
+import Login from './Login'
+
+import Sidebars from '../components/sidebar'
 
 const AdminDashboard = () => {
   return (
-    <div>
-        <div className="content">
-        <h2>Welcome to the Dashboard</h2>
+    <div className='a'>
+      <Sidebars/>
         <p>This is where your main content will go.</p>
-    </div>
+    <Login/>
+      
 
 
 </div>
